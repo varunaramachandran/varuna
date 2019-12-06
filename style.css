@@ -1,0 +1,160 @@
+*{
+margin:0px;
+padding:0px;	
+}
+
+.menubar{
+	text-align:center;
+	background-color:black;
+}
+.menubar ul li a{
+	color:white;
+	text-decoration:none;
+}
+.menubar ul{
+	display:inline-flex;
+	list-style:none;
+}
+.menubar ul li{
+	width:120px;
+	padding:15px;
+	margin:15px;
+	
+}
+.menubar ul li:hover{
+	background-color:orange;
+	border-radius:10px;
+	
+}
+.submenu{
+	display:none;
+}
+.menubar ul li:hover .submenu{
+	display:block;
+	position:absolute;
+	background-color:black;
+	margin-top:15px;
+	margin-left:-15px;
+	border-radius:10px;
+}
+.menubar ul li:hover .submenu ul{
+	display:block;
+	margin:10px;
+}
+.menubar ul li:hover .submenu ul li{
+	width:100px;
+	padding:10px;
+	border-bottom:1px solid red;
+}
+.row{
+	display:flex;
+	margin-left:50px;
+	margin-right:50px;
+	text-align:justify;
+}
+.row h1
+{text-align:center;
+color:white;
+text-decoration:underline;
+margin:20px;
+}
+.row p{
+	color:white;
+}
+.col{
+	padding:50px;
+	margin:20px;
+	background-color:rgba(0,0,0,0.4);
+	box-sizing:border-box;
+	height:350px;
+	width:450;
+}
+	
+	
+
+.ft{
+	background-color:rgba(0,0,0,1);
+	color:white;
+	width:100%;
+	padding:50px;
+	text-align:center;
+}
+.bi{background-image:url(../img/2.jpg);
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-size:cover;
+}
+	
+.submenu{
+	display:none;
+	z-index:1;
+}
+
+
+.gal{
+	text-align:center;
+}
+.gal img{
+	width:300px;
+	height:150px;
+	margin:30px;
+	box-shadow:10px 10px 5px black;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gal img:hover
+{
+	filter:none;
+	transform:scale(1.2);
+}
+.cont{
+	width:450px;
+	height:500px;
+	
+	text-align:center;
+    position:relative;	
+	left:400px;
+	margin:30px;
+	padding:40px;
+	background-color:rgba(0,0,0,0.8);
+	border-radius:5px;
+}
+.frm{
+	width:250px;
+	margin:15px;
+	padding:20px;
+	background-color:rgba(0,0,0,0.8);
+	color:white;
+	outline:none;
+	border:1px solid #5b80a4;
+	transition:.5s;
+}
+.frm:focus{
+	box-shadow:0px 0px 20px 6px #5b80a4;
+}
+.cont textarea{
+	height:100px;
+	
+}
+.frm-btn{
+	float:right;
+	padding:15px 50px;
+	background-color:rgba(0,0,0,0.6);
+	color:white;
+	outline:none;
+	border-radius:30px;
+	border:1px solid #5b80a4;
+	
+}
+h1{
+	color:white;
+}
+
+.frm-btn:focus{
+	box-shadow:0px 0px 20px 6px #5b80a4;
+}		
+		
+	
+
+	
+
